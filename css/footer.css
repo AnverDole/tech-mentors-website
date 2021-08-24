@@ -1,0 +1,277 @@
+footer{
+    background-color: #39A2DB;
+}
+
+footer .top-section{
+    padding: 30px 100px 0 100px;
+}
+/* logo section */
+footer .top-section .logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+footer .top-section .logo span{
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+footer .top-section .logo span i{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #053742;
+    font-style: normal;
+}
+
+footer .center-section{
+    padding: 0 100px 30px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    
+}
+footer .center-section .left-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* address section */
+footer .center-section .left-section .address p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer .center-section .left-section .address div p{
+    margin: 0;
+    font-size: 18px;
+}
+footer .center-section .left-section .phone p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer .center-section .left-section .phone div a{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer .center-section .left-section .phone div a:hover{
+    text-decoration: underline;
+}
+
+
+footer .center-section .middle-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .center-section .middle-section p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer .center-section .middle-section ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+footer .center-section .middle-section ul > li{
+    margin-bottom: 5px;
+}
+footer .center-section .middle-section ul > li a{
+    /* padding: 10px 0; */
+    text-decoration: none;
+ 
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .25s;
+}
+footer .center-section .middle-section ul > li a:hover{
+    text-decoration: underline;
+}
+
+footer .center-section .right-section{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .center-section .right-section .newsletter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+footer .center-section .right-section .newsletter p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer .center-section .right-section .newsletter form{
+    display: flex;
+    flex-direction: row;
+}
+footer .center-section .right-section .newsletter form div.actions{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 10px; */
+}
+footer .center-section .right-section .newsletter form input[type=text]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #053742;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+footer .center-section .right-section .newsletter form input[type=text]::placeholder{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #05374280;
+    font-size: 18px;
+    font-weight: 400;
+}
+footer .center-section .right-section .newsletter form div.actions button[type=submit]{
+    display: flex;
+    background-color: #053742;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+footer .center-section .right-section .social-media{
+    display: flex;
+    flex-direction: column;
+}
+footer .center-section .right-section .social-media p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer .center-section .right-section .social-media div{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-gap: 10px;
+}
+footer .center-section .right-section .social-media div .round-btn{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.131);
+    color: #053742;
+    transition: .25s;
+    cursor: pointer;
+}
+footer .center-section .right-section .social-media div .round-btn:hover{
+    color: white;
+    background-color: #053742;
+}
+
+
+footer .bottom-section{
+    padding: 0 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.535);
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom-section div.copyright {
+    display: flex;
+    align-items: center;
+}
+footer .bottom-section div.copyright span{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+footer .bottom-section div.navigation ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+footer .bottom-section div.navigation ul > li{
+    text-decoration: none;
+}
+footer .navigation ul>li a{
+    padding: 10px 0 10px 10px;
+    text-decoration: none;
+ 
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .25s;
+ }
+footer .navigation ul>li a:hover{
+    text-decoration: underline;
+ 
+ }
+
+
+ @media screen and (max-width: 780px){
+    footer .top-section{
+        padding: 30px 50px 0 50px;
+    }
+    footer .center-section{
+        padding: 0 50px 30px 50px;
+        grid-template-columns: 1fr;
+    }
+    footer .bottom-section{
+        padding: 0 50px;
+    }
+}
+
+ @media screen and (max-width: 580px){
+    footer .bottom-section{
+        padding-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+ @media screen and (max-width: 320px){
+    footer .top-section{
+        padding: 30px 20px 0 20px;
+    }
+    footer .center-section{
+        padding: 0 20px 30px 20px;
+    }
+
+    footer .center-section .right-section .newsletter form{
+        flex-direction: column;
+    }
+    footer .center-section .right-section .newsletter form div.actions{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    footer .bottom-section{
+        padding: 20px 20px 0 20px;
+    }
+}

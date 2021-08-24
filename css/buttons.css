@@ -1,0 +1,24 @@
+a.round-white,
+button.round-white{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #053742;
+}
+a.round-secondery,
+button.round-secondery{
+    background-color: #39A2DB;
+    border-radius: 50px;
+    padding: 10px 20px;
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}

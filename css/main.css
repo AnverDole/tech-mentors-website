@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+div.main{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
