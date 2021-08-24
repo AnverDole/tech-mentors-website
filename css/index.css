@@ -1,7 +1,6 @@
-body{
-    overflow-x: hidden;
+div.main{
+    overflow: hidden;
 }
-
 div.first-section, 
 div.who-we-are-section,
 div.what-we-offer-section{
@@ -47,6 +46,8 @@ div.first-section h1{
     color: white;
     margin-bottom: 20px;
     text-align: center;
+    align-items: baseline;
+
 }
 div.first-section h1 span{
     font-family: 'Ubuntu Condensed', sans-serif;

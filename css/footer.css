@@ -131,12 +131,16 @@ footer .center-section .right-section .newsletter form div.actions{
     /* margin-top: 10px; */
 }
 footer .center-section .right-section .newsletter form input[type=text]{
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #053742;
     width: 100%;
     box-sizing: border-box;
     cursor: pointer;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #05374280;
+    font-size: 18px;
+    font-weight: 400;
 }
 footer .center-section .right-section .newsletter form input[type=text]::placeholder{
     font-family: 'Barlow Condensed', sans-serif;
@@ -156,6 +160,7 @@ footer .center-section .right-section .newsletter form div.actions button[type=s
     padding: 8px 20px;
     border-radius: 5px;
     margin-left: 5px;
+    align-items: center;
 }
 
 
