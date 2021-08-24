@@ -49,6 +49,7 @@ footer .center-section .left-section .address div p{
     margin: 0;
     font-size: 18px;
 }
+
 footer .center-section .left-section .phone p{
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
@@ -56,6 +57,7 @@ footer .center-section .left-section .phone p{
     font-weight: 400;
     margin-bottom: 10px;
 }
+footer .center-section .left-section .phone div span,
 footer .center-section .left-section .phone div a{
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
@@ -232,7 +234,6 @@ footer .navigation ul>li a:hover{
  
  }
 
-
  @media screen and (max-width: 780px){
     footer .top-section{
         padding: 30px 50px 0 50px;
@@ -240,19 +241,31 @@ footer .navigation ul>li a:hover{
     footer .center-section{
         padding: 0 50px 30px 50px;
         grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
     footer .bottom-section{
         padding: 0 50px;
     }
+    footer .center-section .left-section .phone {
+        padding-top: 10px;
+    }
 }
 
  @media screen and (max-width: 580px){
+    footer .center-section .left-section .phone {
+        padding-top: 0;
+    }
+    footer .center-section{
+        grid-gap: 0;
+    }
+    
     footer .bottom-section{
         padding-top: 20px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    
  }
  @media screen and (max-width: 320px){
     footer .top-section{
