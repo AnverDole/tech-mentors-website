@@ -18,3 +18,65 @@ div.main{
     flex-shrink: 0;
     flex-grow: 1;
 }
+
+h1, h2, p, ul > li{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #053742;
+    font-weight: 400;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+ul > li{
+    font-size: 20px;
+}
+
+a.primary-ancher{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #053742;
+    font-weight: 400;
+    transition: .25s;
+    text-decoration: none;
+}
+a.primary-ancher:hover{
+    color: #39A2DB;
+}
+a.secondery-ancher{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #39A2DB;
+    font-weight: 400;
+    transition: .25s;
+    text-decoration: none;
+}
+
+a.secondery-ancher:hover{
+    color: #053742;
+}
+
+.secondery-button{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .25s;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #39A2DB;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.secondery-button.round{
+    border-radius: 50px;
+}
+.secondery-button:hover{
+    background-color: #04679d;
+}
+.secondery-button:focus{
+    box-shadow: 0 0 0px 2px #39a2db7a;
+}

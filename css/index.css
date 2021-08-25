@@ -97,6 +97,7 @@ div.who-we-are-section  .right,
 div.what-we-offer-section .left{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 div.who-we-are-section  .left h2,
 div.what-we-offer-section .right h2{

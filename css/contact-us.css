@@ -1,0 +1,226 @@
+div.main{
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+div.heading-container{
+    display: flex;
+    justify-content: center;
+}
+div.heading-container h1{
+    color: #39A2DB;
+}
+
+
+div.first-section{
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    grid-gap: 100px;
+}
+div.first-section .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.first-section .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.first-section .right h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    color: #053742;
+    font-weight: normal;
+    margin-top: 0;
+}
+div.first-section .right p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: #053742;
+    font-weight: normal;
+    margin-top: 0;
+}
+div.first-section  .left img{
+    width: 400px;
+}
+div.first-section .right div{
+    display: flex;
+    flex-direction: column;
+}
+div.first-section .right div span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: #053742;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+div.contact-form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    box-sizing: border-box;
+}
+div.contact-form form{
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    grid-gap: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 0 5px 2px #39a2db21;
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: white;
+}
+div.contact-form form p{
+   margin-top: 0;
+}
+div.contact-form form .input-row{
+   display: grid;
+   grid-auto-flow: row;
+   grid-gap: 10px;
+}
+div.contact-form form .input-row label{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: #053742;
+    font-weight: normal;
+}
+div.contact-form form .input-row input,
+div.contact-form form .input-row textarea{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    color: #053742;
+    font-weight: normal;
+    padding: 10px 20px;
+    border: 1px solid #39a2db9e;
+    border-radius: 5px;
+    transition: box-shadow .25s;
+    outline: 0;
+}
+div.contact-form form .input-row input:focus,
+div.contact-form form .input-row textarea:focus{
+    box-shadow: 0 0 0px 2px #39a2db7a;
+    
+}
+div.contact-form form .action{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* div.contact-form form .action button{
+   background-color: #39A2DB;
+   border: 0;
+   padding: 10px 20px;
+} */
+
+
+
+img.background-shape{
+    position: absolute;
+    z-index: -0;
+}
+
+img.shape-3{
+    width: 250px;
+    right: -5%;
+    bottom: 0%;
+}
+
+img.shape-4{
+    width: 300px;
+    left: -10%;
+    top: 20%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    div.first-section{
+        grid-gap: 50px;
+    }
+    div.who-we-are-section  .right img{
+        width: 300px;
+    }
+    div.first-section  .left img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 780px){
+    div.first-section{
+        padding: 0 50px;
+        
+    }
+}
+
+@media screen and (max-width:720px){
+    div.first-section{
+        margin-bottom: 20px;
+    }
+    div.who-we-are-section{
+        grid-gap: unset;
+        height: unset;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    div.first-section .right{
+        align-items: center;
+    }
+    div.first-section .right h2,
+    div.first-section .right p,
+    div.first-section .right div span{
+        text-align: center;
+    }
+    div.first-section .right div{
+        align-items: center;
+    }
+
+    div.first-section .left{
+        margin-bottom: 50px;
+        justify-content: center !important;
+    }
+    
+    div.first-section{
+        grid-gap: unset;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 520px){
+    div.first-section{
+        padding: 0 50px;
+    }
+    div.contact-form{
+        padding: 20px 50px;
+    }
+    div.contact-form form{
+        padding: 20px;
+    }
+
+    img.background-shape{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px){
+    div.first-section{
+        padding: 0 20px;
+    }    
+    div.contact-form{
+        padding: 20px;
+    }
+}
+
