@@ -1,0 +1,120 @@
+div.main{
+    padding: 20px 100px;
+}
+div.heading-container{
+    display: flex;
+    justify-content: center;
+}
+div.heading-container h1{
+    color: #39A2DB;
+}
+
+
+div.course-meta{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+div.course-meta div.left{
+   display: grid;
+   grid-template-columns: repeat(2, max-content);
+   align-items: center;
+}
+div.course-meta div.left img{
+   width: 200px;
+   height: 200px;
+   object-position: center;
+   object-fit: contain;
+}
+div.course-meta div.left span.duration{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #39A2DB;
+}
+div.course-meta div.left div{
+   display: grid;
+   grid-auto-flow: row;
+   grid-gap: 10px;
+}
+div.course-meta div.left div h2{
+   margin-bottom: 0;
+}
+div.course-meta div.left div div.tags{
+   display: flex;
+   flex-wrap: wrap;
+}
+div.course-meta div.left div div.tags div.tag{
+    background-color: #053742;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+div.course-meta div.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.course-meta div.right .fee{
+    display: flex;
+    flex-direction: column;
+}
+div.course-meta div.right .fee{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+div.course-meta div.right .fee span{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+div.course-meta div.right .fee span.label{
+    font-size: 20px;
+    color: #053742;
+    font-weight: normal;
+}
+div.course-meta div.right .fee span.value{
+    font-size: 35px;
+    color: #053742;
+    font-weight: 500;
+}
+
+
+
+div.course-description,
+div.course-structure{
+    display: flex;
+    flex-direction: column;
+}
+div.course-description h2,
+div.course-structure h2{
+    margin-bottom: 0;
+}
+div.course-description,
+div.course-structure p{
+    line-height: 1.5;
+}
+
+
+
+div.course-structure ul > li{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 0;
+}
+div.course-structure ul > li h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    font-weight: 400;
+}
+div.course-structure ul > li p{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0 0 20px 0;
+}

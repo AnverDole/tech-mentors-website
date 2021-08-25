@@ -147,7 +147,6 @@ div.upcomming-courses-section div.upcomming-courses{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
-    /* grid-auto-rows: 400px; */
     grid-gap: 20px;
     margin-bottom: 40px; 
     justify-content: center;
@@ -159,6 +158,7 @@ div.upcomming-course{
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.131);
+    overflow: hidden;
 }
 
 
@@ -168,11 +168,12 @@ div.upcomming-course div.thumbnail{
     height: 200px;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-bottom: 20px;
 }
 div.upcomming-courses-section div.upcomming-courses
 div.upcomming-course div.thumbnail img{
     object-position: center;
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
@@ -193,7 +194,7 @@ div.upcomming-course div.meta span{
     font-family: 'Barlow Condensed', sans-serif;
 }
 div.upcomming-courses-section div.upcomming-courses
-div.upcomming-course div.meta span.cource-title{
+div.upcomming-course div.meta a.course-title{
     font-size: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -205,7 +206,8 @@ div.upcomming-courses-section div.upcomming-courses
 div.upcomming-course div.meta span.duration{
     color: white;
     font-size: 15px;
-    background-color: #39A2DB;
+    color: #39A2DB;
+    border: 1px solid #39A2DB;
     padding: 4px 10px;
     border-radius: 50px;
     margin-top: 10px;

@@ -26,6 +26,7 @@ div.courses-container div.course{
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.131);
+    overflow: hidden;
 }
 
 
@@ -34,10 +35,11 @@ div.courses-container div.course div.thumbnail{
     height: 200px;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-bottom: 20px;
 }
 div.courses-container div.course div.thumbnail img{
+    object-fit: cover;
     object-position: center;
-    object-fit: contain;
     width: 100%;
     height: 100%;
 }
@@ -55,13 +57,14 @@ div.courses-container div.course div.meta{
 div.courses-container div.course div.meta span{
     font-family: 'Barlow Condensed', sans-serif;
 }
-div.courses-container div.course div.meta a.cource-title{
+div.courses-container div.course div.meta span.course-title{
     font-size: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    height: 50px;
 }
 div.courses-container div.course div.meta span.duration{
     color: #39A2DB;
