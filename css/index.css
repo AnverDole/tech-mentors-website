@@ -201,6 +201,7 @@ div.upcomming-course div.meta a.course-title{
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    height: 50px;
 }
 div.upcomming-courses-section div.upcomming-courses
 div.upcomming-course div.meta span.duration{
