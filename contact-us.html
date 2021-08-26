@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech mentors - Contact us</title>
     <meta name="description"
-        content="Tech mentors is a higher education institute that Educates software engineers and other IT professionals.">
+        content="Ask your problems, tell us what you think. we are always online to help you.">
     <meta property="og:image" content="./images/logo/large-logo.png" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
@@ -71,23 +71,23 @@
             </div>
         </div>
         <div class="contact-form">
-            <form action="post">
+            <form action="/contact-us.html" method="GET">
                 <p>Leave a message, we will contact you as soon as possible.</p>
                 <div class="input-row">
-                    <label for="">Name</label>
-                    <input type="text" placeholder="Enter your name...">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your name...">
                 </div>
                 <div class="input-row">
-                    <label for="">Email address</label>
-                    <input type="email" placeholder="Enter your email...">
+                    <label for="email_address">Email address</label>
+                    <input id="email_address" name="email_address" type="email" placeholder="Enter your email...">
                 </div>
                 <div class="input-row">
-                    <label for="">Contact number</label>
-                    <input type="email" placeholder="Enter your email...">
+                    <label for="contact_number">Contact number</label>
+                    <input id="contact_number" name="contact_number" type="email" placeholder="Enter your email...">
                 </div>
                 <div class="input-row">
-                    <label for="">Short message</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message..."></textarea>
+                    <label for="message">Short message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message..."></textarea>
                 </div>
 
                 <div class="action">

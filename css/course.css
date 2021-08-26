@@ -12,12 +12,13 @@ div.heading-container h1{
 
 div.course-meta{
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: auto max-content;
 }
 div.course-meta div.left{
    display: grid;
    grid-template-columns: repeat(2, max-content);
    align-items: center;
+   grid-gap: 20px;
 }
 div.course-meta div.left img{
    width: 200px;
@@ -42,6 +43,7 @@ div.course-meta div.left div h2{
 div.course-meta div.left div div.tags{
    display: flex;
    flex-wrap: wrap;
+   max-width: 500px;
 }
 div.course-meta div.left div div.tags div.tag{
     background-color: #053742;
